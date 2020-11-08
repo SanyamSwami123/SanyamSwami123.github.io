@@ -1,5 +1,7 @@
 ---
 layout: default
 ---
-theme: jekyll-theme-cayman
+theme: null
 title: Sanyam Swami
+project:
+# jekyll-theme-cayman
