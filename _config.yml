@@ -1,6 +1,9 @@
----
-layout: default
----
+layout: stacked
+style: light
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
 theme: jekyll-theme-cayman
 title: Sanyam Swami
 project:
