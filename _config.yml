@@ -1,1 +1,15 @@
+layout: stacked
+style: light
 
+projects:
+  sort_by: stars
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 2
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    
+theme: null
