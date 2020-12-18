@@ -1,0 +1,72 @@
+layout: stacked
+style: light
+
+plugins:
+  - jekyll-octicons
+  - jekyll-github-metadata
+  - jemoji
+
+permalink: /:year/:month/:day/:title/
+
+defaults:
+  -
+    scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts"
+    values:
+      layout: "post"
+
+projects:
+  sort_by: stars
+  # sort_by options:
+  #   - pushed
+  #   - stars
+  limit: 6
+  exclude:
+    archived: false
+    forks: true
+    projects:
+    # - repo-name
+
+social_media:
+  # website: http://www.gautamkrishnar.com
+  # stackoverflow: 4214976
+  # twitter: gautamkrishnar
+  # facebook: gautamkrishnar
+  # linkedin: gautamkrishnar
+  # instagram: gautamkrishnar
+  # medium: '@gautamkrishnar'
+
+theme: null
+# topics:
+#   - name: Angular
+#     web_url: https://github.com/topics/angular
+#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/angular/angular.png
+#
+#   - name: Typescript
+#     web_url: https://github.com/topics/typescript
+#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/typescript/typescript.png
+#
+#   - name: Node
+#     web_url: https://github.com/topics/node
+#     image_url: https://raw.githubusercontent.com/github/explore/fd96fceccf8c42c99cbe29cf0f8dcc4736fcb85a/topics/nodejs/nodejs.png
+#
+#   - name: JavaScript
+#     web_url: https://github.com/topics/javascript
+#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/javascript/javascript.png
+#
+#   - name: Python
+#     web_url: https://github.com/topics/python
+#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/python/python.png
+#
+#   - name: PHP
+#     web_url: https://github.com/topics/php
+#     image_url: https://raw.githubusercontent.com/github/explore/ccc16358ac4530c6a69b1b80c7223cd2744dea83/topics/php/php.png
+#
+#   - name: Linux
+#     web_url: https://github.com/topics/linux
+#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/linux/linux.png
+#
+#   - name: Bash
+#     web_url: https://github.com/topics/bash
+#     image_url: https://raw.githubusercontent.com/github/explore/6c6508f34230f0ac0d49e847a326429eefbfc030/topics/bash/bash.png
