@@ -26,6 +26,10 @@ projects:
     archived: false
     forks: true
     projects:
+     - Data-Structure
+     - Software-Requirement-Specification-Format
+     - SanyamSwami123.github.io
+     - SanyamSwami123
     # - repo-name
 
 social_media:
