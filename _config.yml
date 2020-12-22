@@ -26,10 +26,13 @@ projects:
     archived: false
     forks: true
     projects:
-     - Data-Structure
-     - Software-Requirement-Specification-Format
-     - SanyamSwami123.github.io
-     - SanyamSwami123
+#      - Data-Structure
+#      - Software-Requirement-Specification-Format
+#      - SanyamSwami123.github.io
+#      - SanyamSwami123
+       - SUPER-MARKET-BILLING-SYSTEM
+       - Blog-zone
+       - Object_Detection
     # - repo-name
 
 social_media:
