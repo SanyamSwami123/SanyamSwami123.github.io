@@ -21,18 +21,16 @@ projects:
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 6
+  limit: 9
   exclude:
     archived: false
     forks: true
     projects:
-#      - Data-Structure
-#      - Software-Requirement-Specification-Format
-#      - SanyamSwami123.github.io
-#      - SanyamSwami123
-       - SUPER-MARKET-BILLING-SYSTEM
-       - Blog-zone
-       - Object_Detection
+     - Data-Structure
+     - Software-Requirement-Specification-Format
+     - SanyamSwami123.github.io
+     - SanyamSwami123
+    
     # - repo-name
 
 social_media:
