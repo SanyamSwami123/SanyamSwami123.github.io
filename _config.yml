@@ -8,35 +8,35 @@ plugins:
 
 permalink: /:year/:month/:day/:title/
 
-defaults:
-  - scope:
-      path: "" # an empty string here means all files in the project
-      type: "projects"
-    values:
-      layout: "page"
-  - scope:
-      path: ""
-      type: "posts"
-    values: 
-      comments: true
+# defaults:
+#   - scope:
+#       path: "" # an empty string here means all files in the project
+#       type: "projects"
+#     values:
+#       layout: "page"
+#   - scope:
+#       path: ""
+#       type: "posts"
+#     values: 
+#       comments: true
 
-projects:
-  sort_by: stars
-  # sort_by options:
-  #   - pushed
-  #   - stars
-  limit: 9
-  exclude:
-    archived: false
-    forks: true
-    projects:
-     - Data-Structure
-     - Software-Requirement-Specification-Format
-     - SanyamSwami123.github.io
-     - SanyamSwami123
-     - Object_Detection
+# projects:
+#   sort_by: stars
+#   # sort_by options:
+#   #   - pushed
+#   #   - stars
+#   limit: 9
+#   exclude:
+#     archived: false
+#     forks: true
+#     projects:
+#      - Data-Structure
+#      - Software-Requirement-Specification-Format
+#      - SanyamSwami123.github.io
+#      - SanyamSwami123
+#      - Object_Detection
      
-    # - repo-name
+#     # - repo-name
 
 social_media:
   name: Sanyam Swami
