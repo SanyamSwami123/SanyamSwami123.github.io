@@ -9,12 +9,16 @@ plugins:
 permalink: /:year/:month/:day/:title/
 
 defaults:
-  -
-    scope:
+  - scope:
       path: "" # an empty string here means all files in the project
-      type: "posts"
+      type: "projects"
     values:
-      layout: "post"
+      layout: "page"
+  - scope:
+      path: ""
+      type: "posts"
+    values: 
+      comments: true
 
 projects:
   sort_by: stars
