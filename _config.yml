@@ -35,14 +35,18 @@ projects:
     # - repo-name
 
 social_media:
-  # website: http://www.gautamkrishnar.com
-  stackoverflow: 12067671
+  name: Sanyam Swami
+  email: sanyam.swami@gmail.com
+  github: SanyamSwami123
+  kaggle: sanyamswami
+  twitter: sanyamswami
+  # stackoverflow: 12067671
 #   twitter: sanyamswami
-  hackerrank: sanyam_swami
-  # facebook: gautamkrishnar
-  # linkedin: gautamkrishnar
+  # hackerrank: sanyam_swami
+  # facebook: your_username
+  # linkedin: your_username
   # instagram: gautamkrishnar
-  # medium: '@gautamkrishnar'
+  # medium: your_username
 
 theme: null
 # topics:
